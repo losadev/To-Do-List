@@ -91,12 +91,10 @@ li:last-child {
 }
 .container-add-section {
     display: flex;
-    flex-direction: row;
 }
 .icon-add-section {
     margin-left: 190px;
     color: #78b400;
-    size: 60;
 }
 
 

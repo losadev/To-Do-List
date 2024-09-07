@@ -16,6 +16,7 @@ function handleClick() {
       <select name="estado" id="estado">
         <option value="En Proceso">En Proceso</option>
         <option value="terminado">Terminado</option>
+        <option value="..">...</option>
       </select>
     </td>
     </>
