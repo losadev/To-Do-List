@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-container-xl {
+    background: url('https://cdn.wallpapersafari.com/1/63/banxdZ.jpg');
+    width: 80vw;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+}
+.content-container-table {
+    margin: auto;
+    width: 115vh;
+    height: 30vw;
+    h1 {
+        margin-bottom: 30px;
+    }
+}
+.super-container {
+    display: flex;
+    flex-direction: row;
+
+}
+th {
+    border-bottom: 1px solid #f1f1f1;
+}
+th + th, td + td {
+    border-left: 1px solid #f1f1f1;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0,0,0,0.6);
+    color: #ffff;
+    border-radius: 30px;
+}
+th {
+    height: 80px;
+    font-size: 1.3rem;
+}
+td {
+    padding: 20px;
+    font-size: 1.3rem;
+}
+td:nth-child(2) {
+    text-align: center;
+}
+td:last-child {
+    display: flex;
+    justify-content: center;
+}
+select {
+    padding: 8px;
+    font-size: 1.2rem;
+    background-color:  #c9ff5c;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    option {
+        cursor: pointer;
+    }
+}
+
+.content-container-btn-plus {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: #ffff;
+}
+.bg-btn-plus {
+    background-color: rgba(0,0,0,0.6);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.bg-btn-plus:hover {
+   background-color: rgba(0,0,0,0.9);
+}
+.container-edit-del-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.trash-btn-red {
+    color: red;
+    cursor: pointer;
+}
+.edit-btn {
+    color:  #78b400;
+    cursor: pointer;
+}
+.trash-btn-red:hover, .edit-btn:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}

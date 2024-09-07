@@ -1,0 +1,18 @@
+.container-footer {
+    background-color: #1d1d1d;
+    color: #ffff;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top: 1px solid #ffff;
+
+    p {
+        margin: 0 auto;
+        padding-bottom: 24px;
+        text-align: center;
+    }
+
+
+}
